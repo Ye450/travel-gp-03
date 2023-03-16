@@ -1,0 +1,75 @@
+.wrapper {
+  background-image: url("./../../img/formbg.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: var(--primary-dark);
+  box-shadow: 0 0 20px var(--primary-dark);
+  padding: 40px 30px;
+  width: 80%;
+  /* height: 60%; */
+  max-width: 600px;
+  border-radius: 30px;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.inputgp {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputgp label {
+  font-weight: 700;
+  color: white;
+}
+
+.inputgp input {
+  font-size: 20px;
+  padding: 10px;
+  background-color: var(--primary-light);
+  color: var(--color);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #f07dea70;
+}
+
+.btn {
+  padding: 15px;
+  width: 300px;
+  margin: 15px auto;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid var(--btn);
+  border-radius: 20px;
+  color: white;
+  background-color: var(--btn);
+  font-size: 18px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #f07dea70;
+  color: #f0f8ff;
+}

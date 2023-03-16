@@ -1,0 +1,40 @@
+/* footer */
+
+ol,
+ul {
+  list-style: none;
+}
+footer {
+  padding: 40px 0;
+  background-color: #050542;
+  color: #4b4c4d;
+  text-align: center;
+}
+
+.social {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+.listitem {
+  display: inline-flex;
+  padding: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.listitem a:hover {
+  color: #61ce70;
+  font-weight: 800;
+}
+
+.listitem a,
+.copyright {
+  color: #f0f8ff;
+}

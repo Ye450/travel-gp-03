@@ -1,0 +1,14 @@
+.navlogo{
+    display: flex;
+}
+.logoinner{
+    font-size: 60px;
+    font-weight: 400;
+    font-style: inherit;
+    
+}
+.navlogo span{
+    margin-top: 15px;
+    font-size: 15px;
+    font-style: oblique;
+}

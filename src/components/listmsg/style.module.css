@@ -1,0 +1,10 @@
+.innermsg {
+  background-color: #ddf7e3;
+  width: calc(100% / 3 - 10px);
+  padding: 20px;
+  text-align: center;
+}
+
+.innermsg h2 {
+  border-bottom: 1px solid #767575;
+}

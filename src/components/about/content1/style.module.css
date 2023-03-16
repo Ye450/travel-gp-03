@@ -1,0 +1,34 @@
+.about_content1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.content1 {
+  width: 50%;
+}
+
+.boxs h3 {
+  color: var(--primary);
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.boxs p {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.5;
+  opacity: 0.7;
+  padding-right: 20px;
+}
+
+.content1_img {
+  width: 50%;
+}
+
+.content1_img img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,35 @@
+.menu ul li .active{
+    color: #61CE70;
+    font-weight: 800;
+}
+.menu li{
+    padding: 0 20px; 
+}
+
+.menu li a{
+    text-decoration: none;
+    color: var(--color);
+    font-size: 18px;
+    text-transform: uppercase;
+    
+}
+.menu li a:hover{
+    color: #61CE70;
+  }
+.login{
+    padding: 13px 30px;
+    background: #938686;
+    border: 1px solid var(--primary);
+    border-radius: 17px;
+    transition: 0.5s;
+}
+.login:hover{
+    box-shadow: 1px 1px rgb(0, 255, 51);
+    background: #6c5a76;
+
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
