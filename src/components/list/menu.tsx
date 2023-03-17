@@ -1,29 +1,29 @@
 import React from "react";
 import Styles from "./style.module.css";
-// import { NavLink,Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 export default function Menu() {
   return (
     <div className={Styles.menu}>
       <ul>
         <li>
-          <a href="home" className={Styles.active}>
+          <Link to="/" className={Styles.active}>
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#blog">Blog</a>
+          <Link to="/blog">Blog</Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
         <li>
-          <a href="#about">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <a className={Styles.login} href="#login">Login</a>
+          <Link className={Styles.login} to="/login">Login</Link>
         </li>
       </ul>
-      {/* <main><Outlet/></main> */}
     </div>
   );
 }
